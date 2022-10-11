@@ -1,0 +1,6 @@
+version=4
+opts=repack,compression=xz,dversionmangle=s/(\da?)[\+\.\-~](?:dfsg|debian|ds|repack|repacked)\.?\d*$/$1/,\
+uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|b|a)[\-\.]?\d*)$/$1~$2/, \
+https://github.com/torakiki/event-studio/tags \
+.*/archive/(?:upstream/)?(?:v||version-|release-|X|R|r)v(\d\S*)\.tar\.gz
+

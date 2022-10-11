@@ -1,0 +1,39 @@
+libsejda-eventstudio-java (2.0.1-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>  Mon, 16 May 2022 04:54:12 -0400
+
+libsejda-eventstudio-java (2.0.1-1) unstable; urgency=medium
+
+  * New upstream version 2.0.1.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- Markus Koschany <apo@debian.org>  Sun, 31 Jan 2021 00:42:16 +0100
+
+libsejda-eventstudio-java (2.0.0-1) unstable; urgency=medium
+
+  * New upstream version 2.0.0.
+  * Switch to debhelper-compat = 13.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Delete debian/pom.xml file.
+  * Switch to maven build system.
+  * Drop build.gradle.patch.
+
+ -- Markus Koschany <apo@debian.org>  Sat, 24 Oct 2020 22:28:27 +0200
+
+libsejda-eventstudio-java (1.0.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fixed the build failure with Java 9
+  * Standards-Version updated to 4.2.1
+  * Switch to debhelper level 11
+  * Use salsa.debian.org Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 10 Oct 2018 16:36:52 +0200
+
+libsejda-eventstudio-java (1.0.6-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #866992)
+
+ -- Markus Koschany <apo@debian.org>  Mon, 03 Jul 2017 22:37:21 +0200
